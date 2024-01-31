@@ -33,14 +33,45 @@
                 <span></span>
             </div>
             <div class="menu-links">
-              <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                    <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
-                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
     <!-- this for the profile section  -->
+    <section id="profile">
+        <!-- for the profile pic -->
+        <div class="section_pic-container">
+            <img src="./assets/profile-pic.png" alt="demo pic">
+        </div>
+        <!-- for the profile text -->
+        <div class="section_text">
+            <p class="section_text-p1">Hello, I'm</p>
+            <h1 class="title">Pawan Kumar</h1>
+            <p class="section_text-p2">Flutter Devloper</p>
+            <!-- for the buttons -->
+            <div class="btn-container">
+                <!-- button 1 for cv  -->
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download
+                    CV</button>
+                <!-- button 2 for contact=-->
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+
+            </div>
+            <!-- for the social media icon -->
+            <div id="social-media">
+                <!-- icon for the linked in -->
+                <img src="./assets/linkedin.png" alt="my linked in" class="icon"
+                    onclick="location.href='https://linkedin.com'">
+                <!-- for the github section -->
+                <img src="./assets/github.png" alt="my github" class="icon"
+                    onclick="location.href='https://github.com'">
+
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
